@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+div{
+  align: center;
+}
+#title {
+			color: #ffff80;
+  white-space: pre;
+  letter-spacing: 0.25rem;
+  line-height: 0.5;
+  margin-left: 0;/*左*/
+  margin-top: 0;/*上*/
+  margin-right: 0;/*右*/
+  margin-bottom: 0;/*下*/
+}
