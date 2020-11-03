@@ -6,8 +6,20 @@ body {
 div{
   align: center;
 }
+a{
+  color: #ffffaa;
+  text-decoration: none;
+}
+a:hover {
+  font-size: larger;
+  text-decoration: underline dotted #aaaa00;
+}
+a:visited {
+  color: #d5d500;
+  text-decoration: none;
+}
 #title {
-			color: #ffff80;
+  color: #ffff80;
   white-space: pre;
   letter-spacing: 0.25rem;
   line-height: 0.5;
