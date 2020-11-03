@@ -5,7 +5,12 @@ body {
 }
 div{
   align: center;
+  margin-top: 10%;
 }
+span{
+  color: #d5d500;;
+  text-decoration: underline dotted #aaaa00;
+  }
 a{
   color: #ffffaa;
   text-decoration: none;
