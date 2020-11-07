@@ -1,0 +1,25 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getIp.js",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "node-fetch": "^2.6.1",
+    "jqdom": "^0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoiru-futabaya/mysite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoiru-futabaya/mysite/issues"
+  },
+  "homepage": "https://github.com/hoiru-futabaya/mysite#readme"
+}
