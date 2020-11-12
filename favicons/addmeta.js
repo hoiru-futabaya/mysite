@@ -48,7 +48,7 @@ let onloadHead = () => {
   var list = Object.values(tagList)[h];
     for(i = 0; i < list.length; i++){
     		var elem = document.createElement(Object.keys(tagList)[h]);
-  		  var key = Object.keys(list[i]);
+  		var key = Object.keys(list[i]);
   	  	var value = Object.values(list[i]);
   		  for(j = 0; j < key.length; j++){
   				  elem.setAttribute(key[j], value[j]);
@@ -56,5 +56,9 @@ let onloadHead = () => {
   		  head.appendChild(elem);
     }
   }
-  alert(document.documentElement.outerHTML)
+}
+let icon = () => {
+//  document.querySelector('link[rel="icon"]').setAttribute("href","./favicons/android-chrome-192x192.png");
+  onloadHead();
+  alert(document.documentElement.outerHTML);
 }
