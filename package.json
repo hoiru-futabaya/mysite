@@ -4,9 +4,9 @@
   "description": "",
   "main": "getIp.js",
   "dependencies": {
+    "jqdom": "^0.0.5",
     "jquery": "^3.5.1",
-    "node-fetch": "^2.6.1",
-    "jqdom": "^0.0.5"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {},
   "scripts": {
